@@ -64,7 +64,7 @@ async function calcStats() {
 function makeBackground() {
 	let patternA = '/\\'.repeat(39);
 	let patternB = '\\/'.repeat(39);
-	for (let i = 1; i < 15; i += 2) {
+	for (let i = 1; i < 29; i += 2) {
 		txt(patternA, i, 1);
 		txt(patternB, i + 1, 1);
 	}
